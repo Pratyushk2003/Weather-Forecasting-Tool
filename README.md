@@ -17,8 +17,8 @@ When you give the comment “Parse the JSON response” it will give you the sug
 And for error handling it will suggest you:
 
 	except (json.JSONDecodeError, KeyError) as e:
-    	    print("Error occurred while parsing weather data:", e)
-    	    return 
+		print("Error occurred while parsing weather data:", e)
+		return 
           
 	  
 # HOW TO RUN THE CODE
